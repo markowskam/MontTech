@@ -1,0 +1,88 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: 'Lato', sans-serif;
+}
+
+/*Article start*/
+
+article#news_sport {
+    background-color: white;
+    border-radius: 5%;
+    border: 5px solid white;
+    width: 30vw;
+    margin: 2em;
+    text-align: center;
+}
+
+article#news_sport figure#news_picture {
+    position: relative;
+}
+
+article#news_sport figure#news_picture img {
+    width: 28vw;
+    border-radius: 5%;
+
+}
+
+article#news_sport figure#news_picture figcaption {
+    position: absolute;
+    color: white;
+    left: 1.5em;
+    top: 1em;
+    font-size: 1em;
+}
+
+article#news_sport header#main_header {
+    text-transform: uppercase;
+    margin: 1em;
+}
+
+article#news_sport .article_details {
+    font-style: italic;
+}
+
+article#news_sport p.article_details span {
+    font-weight: 700;
+}
+
+article#news_sport p.paragraph {
+    text-align: justify;
+    margin: 1em;
+}
+
+article#news_sport button#btn {
+    padding: 0.5em;
+    border-radius: 5%;
+    border: none;
+    background-color: darkblue;
+    margin: 0.5em;
+}
+
+article#news_sport button#btn a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    text-transform: lowercase;
+    font-weight: bold;
+    font-size: 1em;
+    line-height: 1em;
+    color: chartreuse;
+
+}
+
+article#news_sport button#btn:hover {
+    background-color: chartreuse;
+
+}
+
+article#news_sport button#btn:hover a {
+    color: darkblue;
+}
+
+/*Article stop*/

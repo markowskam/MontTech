@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Zadanie-3</title>
+
+    <!--    CSS-->
+    <link rel="stylesheet" href="css/styles.css">
+
+  
+</head>
+
+<body onload=initMap>
+
+    <div id="map_container">
+        <div id="map"></div>
+        <p>Powiększanie/Pomniejszanie</p>
+        <input type="submit" id="zoomin" value="+">
+        <input type="submit" id="zoomout" value="-">
+        <p>Przesuwanie</p>
+        <input type="submit" id="left" value="lewo">
+        <input type="submit" id="right" value="prawo">
+        <input type="submit" id="top" value="góra">
+        <input type="submit" id="down" value="dół">
+        <p>Centrowanie na miasto</p>
+        <input type="submit" id="Warszawa" value="Warszawa">
+        <input type="submit" id="Lodz" value="Łódź">
+        <input type="submit" id="Wroclaw" value="Wrocław">
+    </div>
+
+
+    <!--    Scripts-->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBvneMLFm-AXokSwhOvs0WfCMHj6BC6-9M&callback=initMap" type="text/javascript"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
